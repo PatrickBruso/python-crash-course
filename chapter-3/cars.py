@@ -20,3 +20,5 @@ print(cars2)
 # back to normal
 cars2.reverse()
 print(cars2)
+
+print(len(cars))
