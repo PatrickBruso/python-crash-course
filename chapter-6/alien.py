@@ -11,3 +11,7 @@ print(f"You just earned {new_points} points!")
 alien_0['x_position'] = 0
 alien_0['y_position'] = 25
 print(alien_0)
+
+# removing key-value pairs
+del alien_0['points']
+print(alien_0)
