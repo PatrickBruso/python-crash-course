@@ -10,7 +10,7 @@ class Car:
         self.year = year
         self.odometer_reading = 0 # Always initialized to 0, not taken as parameter
     
-    def get_descrive_name(self):
+    def get_descriptive_name(self):
         """Return a neatly formatted descriptive name."""
         long_name = f"{self.year} {self.make} {self.model}"
         return long_name.title()
