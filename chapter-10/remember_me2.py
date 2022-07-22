@@ -1,11 +1,10 @@
-"""Program to remember username"""
-
 import json
 
 # Load the username, if it has been stored previously
 # Otherwise, prompt for hte username and store it
 
 def greet_user():
+    """Greet the user by name."""
     filename = 'username.json'
     try:
         with open(filename) as f:
